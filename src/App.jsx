@@ -10,9 +10,9 @@ const App = () => (
     <section className="padding"><SuperQuality/></section>
     <section className="padding-x"><Services/></section>
     <section className="padding"><SpecialOffers/></section>
-    <section className="padding"><CustomerReviews/></section>
+    <section className="padding bg-slate-100"><CustomerReviews/></section>
     <section className="padding"><Subscribe/></section>
-    <section className="padding"><Footer/></section>
+    <section className="padding bg-black"><Footer/></section>
   </main>
 );
 
