@@ -18,7 +18,7 @@ const Footer = () => {
             {socialMedia.map((icon) => (
               <div
                 key={icon.src}
-                className="flex justify-center items-center w-12 h-12 bg-white rounded-full cursor-pointer hover:bg-slate-300"
+                className="flex justify-center items-center w-12 h-12 bg-white rounded-full cursor-pointer hover:bg-orange-400"
               >
                 <img src={icon.src} alt={icon.alt} height={24} width={24} />
               </div>
@@ -31,7 +31,7 @@ const Footer = () => {
               <h4 className="text-white font-montserrat text-2xl leading-normal font-medium mb-6">{section.title}</h4>
               <ul>
                 {section.links.map((link) => (
-                  <li key={link.name} className="mt-3 text-white-400 font-montserrat text-base leading-normal hover:text-slate-gray cursor-pointer">
+                  <li key={link.name} className="mt-3 text-white-400 font-montserrat text-base leading-normal hover:text-orange-400 cursor-pointer">
                     <a href="#">{link.name}</a>
                   </li>
                 ))}

@@ -25,7 +25,7 @@ const CustomNav = () => {
             <li key={item.label}>
               <a
                 href={item.href}
-                className="hover:text-black font-montserrat leading-normal text-lg text-slate-gray"
+                className="hover:text-red-500 font-montserrat leading-normal text-lg text-slate-gray"
               >
                 {item.label}
               </a>
