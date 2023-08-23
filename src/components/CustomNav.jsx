@@ -46,7 +46,7 @@ const CustomNav = () => {
       <ul
         className={
           click
-            ? "flex flex-1 justify-center items-start flex-col gap-16 w-[70%] h-[100vh] absolute top-0 right-0 pl-12 z-10 bg-violet-100 transition-all duration-[5000] lg:hidden max-sm:w-full"
+            ? "flex flex-1 justify-center items-start flex-col gap-16 w-[70%] h-[100vh] absolute top-0 right-0 pl-12 z-10  bg-violet-100 lg:hidden max-sm:w-full"
             : "hidden"
         }
       >
