@@ -1,4 +1,5 @@
 import { star } from "../assets/icons";
+import React from "react";
 
 const PopularProductCard = ({ imgURL, name, price }) => {
   return (

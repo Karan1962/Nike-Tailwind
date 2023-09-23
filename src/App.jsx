@@ -1,5 +1,6 @@
 import { Hero,CustomerReviews,Footer,PopularProducts,Services,SpecialOffers,Subscribe,SuperQuality } from "./Sections";
 import CustomNav from './components/CustomNav'
+import React from "react";
 
 
 const App = () => (

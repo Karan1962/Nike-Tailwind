@@ -1,5 +1,6 @@
 import { services } from "../constants";
 import ServiceCard from "../components/ServiceCard";
+import React from "react";
 
 const Services = () => {
   return (

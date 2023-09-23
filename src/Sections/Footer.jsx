@@ -1,6 +1,7 @@
 import { copyrightSign } from "../assets/icons";
 import { footerLogo } from "../assets/images";
 import { footerLinks, socialMedia } from "../constants";
+import React from "react";
 
 const Footer = () => {
   return (

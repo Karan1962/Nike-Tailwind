@@ -1,7 +1,7 @@
 import { headerLogo } from "../assets/images";
 import { hamburger, close } from "../assets/icons";
 import { navLinks } from "../constants";
-import { useState } from "react";
+import React ,{ useState } from "react";
 
 const CustomNav = () => {
   const [click, setClick] = useState(false);
