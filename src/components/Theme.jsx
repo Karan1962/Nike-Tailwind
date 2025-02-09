@@ -26,12 +26,12 @@ const Theme = () => {
               width={16}
             />
           </MenubarTrigger>
-          <MenubarContent className="min-w-[120px] absolute right-[-3rem] bg-[white] ">
+          <MenubarContent className="min-w-[120px] absolute right-[-3rem] bg-[white] px-2 py-[10px] dark:bg-[#18192a] dark:text-[#dddddd] border-none">
             {modes.map((item) => {
               return (
                 <MenubarItem
                   key={item.id}
-                  className={`flex items-center gap-4  rounded hover:bg-[#f1f1f1] cursor-pointer`}
+                  className={`flex items-center gap-4  rounded hover:bg-[#f1f1f1] cursor-pointer dark:hover:bg-[#262732]`}
                   onClick={() => {
                     if (item.value !== "system") {
                       localStorage.setItem("theme", item.value);
