@@ -1,5 +1,4 @@
 import Button from "../components/Button";
-import React from "react";
 
 const Subscribe = () => {
   return (
@@ -11,8 +10,12 @@ const Subscribe = () => {
         Sign Up For
         <span className="text-coral-red"> Updates </span>& Newsletter
       </h3>
-      <div className="lg:max-w-[40%] w-full flex items-center max-sm:flex-col gap-5 p-2.5 sm:border sm:border-slate-gray rounded-full"> 
-        <input type="text" placeholder="Subscribe@nike.com" className="input" />
+      <div className="lg:max-w-[40%] w-full flex items-center max-sm:flex-col gap-5 p-2.5 sm:border sm:border-slate-gray rounded-full">
+        <input
+          type="text"
+          placeholder="Subscribe@nike.com"
+          className="input dark:bg-[#12121b]"
+        />
         <div className="flex max-sm:justify-end items-center max-sm:w-full">
           <Button label="Sign Up" fullWidth />
         </div>

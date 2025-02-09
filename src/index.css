@@ -17,6 +17,10 @@
     brightness(104%) contrast(106%) !important;
 }
 
+.dark_theme {
+  filter: sepia(100%) brightness(600%);
+}
+
 @layer components {
   .max-container {
     max-width: 1440px;
@@ -59,6 +63,10 @@
 
   .info-text {
     @apply font-montserrat text-slate-gray text-lg leading-7;
+  }
+
+  .dark_bg_text {
+    @apply dark:bg-[#000000] dark:text-[#ececec] transition-colors duration-300;
   }
 }
 

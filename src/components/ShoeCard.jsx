@@ -1,5 +1,3 @@
-import React from "react";
-
 const ShoeCard = ({ imgURL, changeBigShoeImage, bigShoeImg }) => {
   const handleClick = () => {
     if (bigShoeImg !== imgURL.bigShoe) {
@@ -14,7 +12,7 @@ const ShoeCard = ({ imgURL, changeBigShoeImage, bigShoeImg }) => {
     } cursor-pointer max-sm:flex-1 `}
       onClick={handleClick}
     >
-      <div className="flex justify-center items-center bg-card bg-center bg-cover sm:w-40 sm:h-40 rounded-xl max-sm:p-4 ">
+      <div className="flex justify-center items-center bg-card dark:bg-reverse_dark bg-center bg-cover sm:w-40 sm:h-40 rounded-xl max-sm:p-4 shadow-xl ">
         <img
           src={imgURL.thumbnail}
           alt="shoecollection"

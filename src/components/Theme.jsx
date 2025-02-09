@@ -17,11 +17,11 @@ const Theme = () => {
     <div>
       <Menubar>
         <MenubarMenu>
-          <MenubarTrigger>
+          <MenubarTrigger className="cursor-pointer">
             <img
               src={`${theme === "dark" ? moon : sun}`}
               alt="theme"
-              className="active-theme"
+              className={`${theme === "dark" ? "dark_theme" : "active-theme"}`}
               height={16}
               width={16}
             />

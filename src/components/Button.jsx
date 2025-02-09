@@ -1,12 +1,10 @@
-import React from "react";
-
 const Button = ({
   label,
   iconURL,
   backgroundColor,
   textColor,
   borderColor,
-  fullWidth
+  fullWidth,
 }) => {
   return (
     <button
@@ -14,7 +12,7 @@ const Button = ({
         backgroundColor
           ? `${backgroundColor} ${textColor} ${borderColor} hover:bg-slate-100`
           : "bg-coral-red text-white border-coral-red hover:bg-red-500"
-      } rounded-full ${fullWidth && 'w-full'}`}
+      } rounded-full ${fullWidth && "w-full"}`}
     >
       {label}
 

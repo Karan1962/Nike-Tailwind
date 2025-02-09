@@ -1,5 +1,4 @@
 import { star } from "../assets/icons";
-import React from "react";
 
 const PopularProductCard = ({ imgURL, name, price }) => {
   return (
@@ -11,9 +10,12 @@ const PopularProductCard = ({ imgURL, name, price }) => {
           (4.5)
         </p>
       </div>
-      <h3 className="mt-2 text-2xl leading-normal font-semibold font-palanquin">{name}</h3>
-      <p className="mt-2 font-semibold font-montserrat text-coral-red text-2xl leading-normal">{price}</p>
-
+      <h3 className="mt-2 text-2xl leading-normal font-semibold font-palanquin">
+        {name}
+      </h3>
+      <p className="mt-2 font-semibold font-montserrat text-coral-red text-2xl leading-normal">
+        {price}
+      </p>
     </div>
   );
 };

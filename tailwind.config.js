@@ -1,5 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 export default {
+  darkMode: "class",
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
     fontSize: {
@@ -31,6 +32,8 @@ export default {
       backgroundImage: {
         hero: "url('assets/images/collection-background.svg')",
         card: "url('assets/images/thumbnail-background.svg')",
+        dark: "url('assets/icons/untitled.svg')",
+        reverse_dark: "url('assets/icons/reverse_bg.svg')",
       },
       screens: {
         wide: "1440px",

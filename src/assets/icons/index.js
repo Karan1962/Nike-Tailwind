@@ -14,6 +14,7 @@ import close from "./close.svg";
 import sun from "./sun.svg";
 import moon from "./moon.svg";
 import computer from "./computer.svg";
+import untitled from "./untitled.svg";
 
 export {
   arrowRight,
@@ -32,4 +33,5 @@ export {
   sun,
   moon,
   computer,
+  untitled,
 };
