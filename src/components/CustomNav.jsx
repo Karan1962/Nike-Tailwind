@@ -4,6 +4,7 @@ import { navLinks } from "../constants";
 import { Link } from "react-router-dom";
 import { motion, AnimatePresence } from "framer-motion";
 import { useState } from "react";
+import Theme from "./Theme";
 
 const CustomNav = () => {
   const [mobileNav, setMobileNav] = useState(false);
@@ -29,6 +30,7 @@ const CustomNav = () => {
             </li>
           ))}
         </ul>
+        <Theme />
 
         {/* Mobile Menu Toggle Button */}
         <button onClick={() => setMobileNav(true)} className="lg:hidden block">

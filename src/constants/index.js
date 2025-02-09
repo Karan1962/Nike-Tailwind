@@ -5,6 +5,9 @@ import {
   support,
   truckFast,
   twitter,
+  sun,
+  moon,
+  computer,
 } from "../assets/icons";
 import {
   bigShoe1,
@@ -26,6 +29,24 @@ export const navLinks = [
   { href: "#about-us", label: "About Us" },
   { href: "#products", label: "Products" },
   { href: "#contact-us", label: "Contact Us" },
+];
+
+export const modes = [
+  {
+    id: 1,
+    value: "light",
+    url: sun,
+  },
+  {
+    id: 2,
+    value: "dark",
+    url: moon,
+  },
+  {
+    id: 3,
+    value: "system",
+    url: computer,
+  },
 ];
 
 export const shoes = [
